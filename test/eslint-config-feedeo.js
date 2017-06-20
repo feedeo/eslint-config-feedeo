@@ -1,16 +1,16 @@
 /*
  * Copyright (c) 2017, Feedeo AB <hugo@feedeo.io>.
  *
- * This source code is licensed under the license found in the 
+ * This source code is licensed under the license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-describe('ESlint configuration', () => {
+describe('ESLint configuration', () => {
   let subject
 
   describe('when exporting', () => {
     beforeEach(() => {
-      subject = require('../src/eslint-config-hfreire')
+      subject = require('../src/eslint-config-feedeo')
     })
 
     it('should export configuration extending standard', () => {
