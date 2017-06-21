@@ -1,6 +1,6 @@
 {
   "name": "@feedeo/eslint-config-feedeo",
-  "description": "My ESLint configuration style rules bible",
+  "description": "Feedeo's ESLint configuration",
   "version": "0.0.0",
   "main": "lib/index.js",
   "repository": {
