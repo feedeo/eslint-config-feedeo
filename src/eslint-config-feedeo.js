@@ -25,7 +25,6 @@ module.exports = {
     'promise/param-names': 'error',
     'promise/catch-or-return': 'error',
     'promise/no-native': 'error',
-    'promise/no-callback-in-promise': 'error',
     'mocha/no-exclusive-tests': 'error',
     'mocha/no-global-tests': 'error',
     'mocha/no-identical-title': 'error',
