@@ -20,6 +20,9 @@ module.exports = {
     'unicorn'
   ],
   rules: {
+    'array-bracket-spacing': [ 'error', 'always' ],
+    'object-curly-spacing': [ 'error', 'always' ],
+    'space-before-function-paren': 'error,
     'promise/always-return': 'off',
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
