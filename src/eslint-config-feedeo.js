@@ -20,12 +20,14 @@ module.exports = {
     'unicorn'
   ],
   rules: {
+    'array-bracket-spacing': [ 'error', 'always' ],
+    'object-curly-spacing': [ 'error', 'always' ],
+    'space-before-function-paren': 'error',
     'promise/always-return': 'off',
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
     'promise/catch-or-return': 'error',
     'promise/no-native': 'error',
-    'promise/no-callback-in-promise': 'error',
     'mocha/no-exclusive-tests': 'error',
     'mocha/no-global-tests': 'error',
     'mocha/no-identical-title': 'error',
