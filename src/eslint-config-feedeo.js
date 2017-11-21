@@ -20,6 +20,7 @@ module.exports = {
     'unicorn'
   ],
   rules: {
+    'standard/computed-property-even-spacing': ['error', 'always'],
     'array-bracket-spacing': [ 'error', 'always' ],
     'object-curly-spacing': [ 'error', 'always' ],
     'space-before-function-paren': 'error',
